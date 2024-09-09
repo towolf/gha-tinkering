@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - runs: echo planned
+      - run: echo planned
 
   apply:
     name: Deploy
@@ -29,4 +29,4 @@ jobs:
 
     steps:
       - uses: actions/checkout@v4
-      - runs: echo deployed
+      - run: echo deployed
